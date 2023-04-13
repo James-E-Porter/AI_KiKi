@@ -49,12 +49,13 @@ The software components for this project include:
 
 The system architecture for the AI assistant consists of the following components:
 
-1. **Sensor Data Acquisition**: Arduino Uno or Micro will gather data from the HC-SR04 ultrasonic sensor and PIR sensors.
-2. **LED Matrix Control**: Arduino will control the MAX7219CNG 1608 LED panels using the MM74HC595N shift registers.
-3. **Pepper's Ghost 3D Animated Model**: Raspberry Pi will handle the 3D animation and projection for the Pepper's Ghost illusion.
-4. **AI Processing**: Raspberry Pi will run the ChatGPT checkpoints as modular inputs, providing context-aware responses.
-5. **Communication**: ESP8266MOD WiFi module will facilitate internet connectivity for the AI assistant.
-6. **Power Supply**: YW Robot power supply will provide stable power to the components.
+1. **Facial Recognition and Tracking**: Xbox Kinect will provide facial recognition and tracking capabilities, controlled by the Raspberry Pi.
+2. **Speech Recognition and Voice Output**: The AI assistant will process speech input and provide voice output through a microphone and speaker.
+3. **Sensor Control**: Arduinos will control distance sensors, LED status lights, and the remote weather station.
+4. **Communication**: Wi-Fi modules will enable communication between Arduinos and the Raspberry Pi.
+5. **AI Processing**: Raspberry Pi will run the ChatGPT checkpoints to provide context-aware responses to user queries.
+6. **Pepper's Ghost 3D Animated Model**: Raspberry Pi will handle the 3D animation and projection for the Pepper's Ghost illusion.
+7. **Secondary Wi-Fi-connected Display**: A remote display will provide additional interaction capabilities in a separate room.
 
 ## Project Timeline and Milestones
 
